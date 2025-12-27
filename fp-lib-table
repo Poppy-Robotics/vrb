@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "I3A4W008A033V-001-R")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/I3A4W008A033V-001-R.pretty")(options "")(descr ""))
+  (lib (name "TPSM365R6V5RDNR")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/TPSM365R6V5RDNR.pretty")(options "")(descr ""))
+)
