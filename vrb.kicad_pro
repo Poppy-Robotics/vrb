@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.35
       ],
       "tuning_pattern_settings": {
@@ -221,6 +222,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
@@ -490,10 +495,16 @@
         "wire_width": 6
       },
       {
+        "name": "Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.6,
@@ -521,6 +532,34 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*VSENSE"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*ISENSE"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*IESC*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*IPAYLOAD"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*RESV*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+BATT"
       }
     ]
   },
@@ -695,6 +734,14 @@
     [
       "610a5fc1-0ecb-4afd-872f-88c90912566f",
       "Passthrough Ports"
+    ],
+    [
+      "0d4bd9cc-8b27-4bd8-8a00-67e0b9520a22",
+      "Reset Clock Ctrl"
+    ],
+    [
+      "c1a3c4bb-0e4d-4180-a614-8584d1dbf6d0",
+      "Onboard Regulator"
     ]
   ],
   "text_variables": {}
