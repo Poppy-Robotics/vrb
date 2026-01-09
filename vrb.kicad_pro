@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -73,10 +73,6 @@
         ],
         [
           "courtyards_overlap|97350000|69925000|161aa67e-1fd0-45d8-82ef-3e353782a532|774fbb29-0101-4278-a234-f10855560331",
-          ""
-        ],
-        [
-          "silk_over_copper|117200000|129200275|d0ab1d20-d66b-4ff5-9ea2-e60c2b77fcbf|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -246,7 +242,7 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.25
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -526,9 +522,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -544,9 +539,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,

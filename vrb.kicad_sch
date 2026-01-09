@@ -5409,7 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 157.48) (xy 95.25 157.48)
+			(xy 76.2 154.94) (xy 95.25 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5749,7 +5749,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 160.02) (xy 95.25 160.02)
+			(xy 76.2 157.48) (xy 95.25 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6269,13 +6269,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 154.94) (xy 95.25 154.94)
+			(xy 76.2 152.4) (xy 95.25 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "efd90238-fc4a-4dba-a057-01c376bf0483")
+	)
+	(wire
+		(pts
+			(xy 76.2 160.02) (xy 95.25 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09ec1ed-48e6-443a-9d65-c64844f20482")
 	)
 	(wire
 		(pts
@@ -6648,7 +6658,7 @@
 		(uuid "32a46e8f-82d0-4b52-ad4d-dd104a6a8a84")
 	)
 	(label "FMU1_VOUT"
-		(at 76.2 154.94 0)
+		(at 76.2 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6958,7 +6968,7 @@
 		(uuid "7c163550-1e7a-4124-94b2-b05fa886366e")
 	)
 	(label "CM_VOUT"
-		(at 76.2 160.02 0)
+		(at 76.2 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7198,7 +7208,7 @@
 		(uuid "bc3d6f98-2127-4792-abaf-1c89be6942b3")
 	)
 	(label "FMU2_VOUT"
-		(at 76.2 157.48 0)
+		(at 76.2 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7456,6 +7466,16 @@
 			(justify left bottom)
 		)
 		(uuid "f09b1bdc-b168-4301-853f-1587a0ce5a93")
+	)
+	(label "RADAR_VOUT"
+		(at 76.2 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2760b9c-636b-4bed-89f0-07a035b1c037")
 	)
 	(label "RADIO_VOUT"
 		(at 179.07 25.4 0)
@@ -9816,8 +9836,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 152.4)
-		(size 19.05 38.1)
+		(at 95.25 149.86)
+		(size 19.05 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9832,7 +9852,7 @@
 		)
 		(uuid "610a5fc1-0ecb-4afd-872f-88c90912566f")
 		(property "Sheetname" "Passthrough Ports"
-			(at 95.25 151.6884 0)
+			(at 95.25 149.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,7 +9870,7 @@
 			)
 		)
 		(pin "CM_VOUT" input
-			(at 95.25 160.02 180)
+			(at 95.25 157.48 180)
 			(uuid "12f58912-44f4-4e02-8dab-ba2ab0ff741e")
 			(effects
 				(font
@@ -9860,7 +9880,7 @@
 			)
 		)
 		(pin "FMU1_VOUT" input
-			(at 95.25 154.94 180)
+			(at 95.25 152.4 180)
 			(uuid "bcccb320-9a77-4e1c-897b-c422f9ae5163")
 			(effects
 				(font
@@ -9870,7 +9890,7 @@
 			)
 		)
 		(pin "FMU2_VOUT" input
-			(at 95.25 157.48 180)
+			(at 95.25 154.94 180)
 			(uuid "c3f5b928-109b-468f-bc14-610bc47f264f")
 			(effects
 				(font
@@ -9972,6 +9992,16 @@
 		(pin "SDA" input
 			(at 95.25 166.37 180)
 			(uuid "75988e37-e0b0-41ef-9d6b-2c5d8e8fea2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADAR_VOUT" input
+			(at 95.25 160.02 180)
+			(uuid "66c308eb-6029-469b-b9f9-bed099fb5af2")
 			(effects
 				(font
 					(size 1.27 1.27)

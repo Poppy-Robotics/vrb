@@ -2251,19 +2251,9 @@
 		)
 		(uuid "f0d2fa20-c2fe-4bac-8d9c-4068261d57f9")
 	)
-	(text "TODO: Increase footprint of 22u for next rev"
+	(text "fSW = 400KHz, VOUT = 5.2V, IOUT = 3.5A\nL = 10uH, COUT = 2x 33uF [16V], RFBT = 56.1K\nFor 5.0V, RFBT = 53.6K"
 		(exclude_from_sim no)
-		(at 109.22 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fa3f5466-9f62-4fe2-bc58-594b6bb4a945")
-	)
-	(text "fSW = 400KHz, VOUT = 5V\nL = 15uH, COUT = 2x 22uF [16V], RFBT = 53.6K"
-		(exclude_from_sim no)
-		(at 30.48 30.48 0)
+		(at 30.48 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,7 +3612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "33u"
 			(at 99.06 50.8 0)
 			(effects
 				(font
@@ -3631,7 +3621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 97.4852 54.61 0)
 			(effects
 				(font
@@ -4284,7 +4274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "53K6 1%"
+		(property "Value" "56K1 1%"
 			(at 80.01 50.8 0)
 			(effects
 				(font
@@ -5001,7 +4991,7 @@
 				)
 			)
 		)
-		(property "Value" "15u"
+		(property "Value" "10u"
 			(at 76.2 41.91 90)
 			(effects
 				(font
@@ -5318,7 +5308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "33u"
 			(at 109.22 50.8 0)
 			(effects
 				(font
@@ -5327,7 +5317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 107.6452 54.61 0)
 			(effects
 				(font
