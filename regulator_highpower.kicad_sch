@@ -1548,6 +1548,17 @@
 		)
 		(uuid "3e0244ae-9ebc-4898-b81c-4d5b5d4ef091")
 	)
+	(text "TODO: Rup\nTODO: DAC?"
+		(exclude_from_sim no)
+		(at 60.96 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94a0cabe-4e58-40db-89c8-f00cfe472033")
+	)
 	(text "Status LED"
 		(exclude_from_sim no)
 		(at 53.34 88.9 0)
@@ -1633,6 +1644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e91368e7-bba1-46bd-a5c8-07e188838eb1")
+	)
+	(junction
+		(at 88.9 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd2efe4-24e5-4000-962d-821c01edb765")
 	)
 	(junction
 		(at 156.21 45.72)
@@ -2139,6 +2156,16 @@
 			(type default)
 		)
 		(uuid "f1c1b6f8-1191-456a-b2fc-9c9c7ee80fd7")
+	)
+	(wire
+		(pts
+			(xy 88.9 53.34) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f669dbcb-64bf-4698-8ef6-d73ad489b864")
 	)
 	(wire
 		(pts
@@ -3853,6 +3880,72 @@
 			(project "vrb"
 				(path "/59a9b615-ea12-4a8c-9228-b32f861e8d75/eb1e4a76-3344-4a3b-8543-2ea356ffbe51"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d63abd31-5558-4fa3-b163-0639af4e3ebe")
+		(property "Reference" "#PWR0182"
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b225b75-2168-4d27-a51a-187dfa57ec20")
+		)
+		(instances
+			(project ""
+				(path "/59a9b615-ea12-4a8c-9228-b32f861e8d75/eb1e4a76-3344-4a3b-8543-2ea356ffbe51"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
